@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>admin</class>
+ <widget class="QDialog" name="admin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>702</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 24pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>管理系统</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="notice">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>150</y>
+     <width>471</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>请输入您的车牌号（例：湘A 123AB 则输入123AB）</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="carid_input">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>200</y>
+     <width>451</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="resulttext">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>400</y>
+     <width>621</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="car_store">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>260</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>存车</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="car_fetch">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>260</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>取车</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>车辆管理</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="his_quire">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>260</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>出入记录</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>330</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>返回结果</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>80</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>车库管理</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="car_quire">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>260</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>查车</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>210</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>财务管理</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="list_stall">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>150</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>查看车库</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="list_finance">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>270</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>财务记录</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
