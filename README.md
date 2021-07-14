@@ -15,6 +15,10 @@ Qt学习之路2：https://www.devbean.net/2012/08/qt-study-road-2-catelog/
 
 Qt快速入门：http://shouce.jb51.net/qt-beginning/
 
+## 特别感谢
+
+超级感谢 [@Kvar_ispw17](https://github.com/enkerewpo) 的指导与支持！！！
+
 # 数据库设计与部分规范
 
 ## history
